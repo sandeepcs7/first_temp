@@ -21,7 +21,11 @@ public class LoginServlet extends HttpServlet {
 	private final String userID = "Pankajjjj";
 	private final String password = "journaldev";
 	private final String login = "newlogin";
-	private final String login2 = "newlogin2";
+
+	private final String login2 = "newlogin";
+	private final String login3 = "newlogin";
+	
+
 
 	/**
 	 * @see HttpServlet#HttpServlet()
@@ -68,6 +72,10 @@ public class LoginServlet extends HttpServlet {
 			out.println("<font color=red>Either user name or password is wrong.</font>");
 			rd.include(request, response);
 		}
+	}
+	
+	public void testMethod() {
+		System.out.println("LoginServlet.testMethod()");
 	}
 
 }

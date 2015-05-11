@@ -57,6 +57,10 @@ public class LogoutServlet extends HttpServlet {
         //no encoding because we have invalidated the session
         response.sendRedirect("login.html");
     }
+	
+	public void testMethodLogout() {
+		System.out.println("LogoutServlet.testMethodLogout()");;
+	}
 }
 
 
