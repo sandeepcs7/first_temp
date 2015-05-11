@@ -20,6 +20,8 @@ public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private final String userID = "Pankaj";
 	private final String password = "journaldev";
+	private final String login = "newlogin";
+	private final String login2 = "newlogin2";
 
 	/**
 	 * @see HttpServlet#HttpServlet()
